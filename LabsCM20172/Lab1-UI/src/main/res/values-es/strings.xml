@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">LabsCM20172</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="welcome">Inicia sesión para continuar</string>
+    <string name="register">Registrar</string>
+
+    <string name="incorrect">Nombre de usuario o contraseña es incorrecta</string>
+
+    <string name="names">Nombres</string>
+    <string name="last_names">Apellidos</string>
+    <string name="female">Mujer</string>
+    <string name="male">Hombre</string>
+    <string name="phone">Teléfono</string>
+    <string name="postal_address">Dirección</string>
+    <string name="email">Correo electrónico</string>
+    <string name="city">Ciudad</string>
+    <string name="date">Fecha</string>
+
+    <string name="names_r"></string>
+    <string name="last_names_r"></string>
+    <string name="sex_r"></string>
+    <string name="date_r"></string>
+    <string name="phone_r"></string>
+    <string name="postal_address_r"></string>
+    <string name="email_r"></string>
+    <string name="password_r"></string>
+    <string name="city_r"></string>
+
+    <string name="edit_profile">Editar Perfil</string>
+    <string name="exit">Salir</string>
+
+</resources>

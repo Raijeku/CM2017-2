@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.edu.udea.compumovil.gr10_20172.lab2.AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="El curso Computación Móvil introduce los conceptos básicos acerca del diseño y desarrollo de aplicaciones móviles. En el curso se tratan temas generales de computación móvil, como evolución de las redes inalámbricas, caracteristicas especiales de los dispositivos móviles. Además veremos temas particulares en el desarrollo de aplicaciones en Android referentes a la arquitectura de software, manejo del framework de programación  y desarrollo de interfaces de usuario utilizando Material Design. " />
+
+</FrameLayout>

@@ -1,0 +1,58 @@
+{
+  "name": "Usuario",
+  "plural": "Usuarios",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombres": {
+      "type": "string",
+      "required": true
+    },
+    "Apellidos": {
+      "type": "string",
+      "required": true
+    },
+    "Nombreusuario": {
+      "type": "string",
+      "required": true
+    },
+    "Sexo": {
+      "type": "string",
+      "required": true
+    },
+    "Nacimiento": {
+      "type": "string",
+      "required": true
+    },
+    "Telefono": {
+      "type": "number",
+      "required": true
+    },
+    "Direccion": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "string",
+      "required": true
+    },
+    "Contrasena": {
+      "type": "string",
+      "required": true
+    },
+    "Ciudad": {
+      "type": "string",
+      "required": true
+    },
+    "Imagen": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Apartamento",
+  "plural": "Apartamentos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Imagen": {
+      "type": "string",
+      "required": true
+    },
+    "Tipo": {
+      "type": "string",
+      "required": true
+    },
+    "Valor": {
+      "type": "number",
+      "required": true
+    },
+    "Cuartos": {
+      "type": "number",
+      "required": true
+    },
+    "Area": {
+      "type": "number",
+      "required": true
+    },
+    "Descripcion": {
+      "type": "string",
+      "required": true
+    },
+    "Ubicacion": {
+      "type": "string",
+      "required": true
+    },
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Descripcioncorta": {
+      "type": "string",
+      "required": true
+    },
+    "Banos": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

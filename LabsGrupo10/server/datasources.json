@@ -1,0 +1,24 @@
+{
+  "DAQSource": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "url": "",
+    "database": "LabsDatabase",
+    "password": "root",
+    "name": "DAQSource",
+    "user": "root",
+    "connector": "mysql"
+  },
+  "dataimages": {
+    "name": "dataimages",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/myimages"
+  },
+  "aptimages": {
+    "name": "aptimages",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/itsimages"
+  }
+}

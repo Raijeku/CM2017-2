@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Lab3Services</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="apartments">Apartments</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log Out</string>
+    <string name="about">About</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="register">Register</string>
+    <string name="names">Names</string>
+    <string name="last_names">Last Names</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="date">Birth Date</string>
+    <string name="phone">Phone</string>
+    <string name="postal_address">Postal Address</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="city">City</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="keep_signed_in">Keep Signed In</string>
+    <string name="notifications">Notifications</string>
+    <string name="authorize_notifications">Authorize notifications</string>
+    <string name="activate_sound">Activate sound</string>
+    <string name="authorize_notifications_summary">Allow this application to send notifications</string>
+    <string name="activate_sound_summary">Activates sound on notifications</string>
+    <string name="keep_signed_in_summary">Be signed in on your next visit</string>
+    <string name="session">Session</string>
+    <string name="edit_profile_summary">Make changes to your profile</string>
+    <string name="search_title">Search Apartments</string>
+    <string name="exit">Exit</string>
+    <string name="accept">Accept</string>
+
+
+    <string name="burned_default">false</string>
+    <string name="burned">burned</string>
+    <string name="price">Price</string>
+    <string name="bedrooms">Bedrooms</string>
+    <string name="area">Area</string>
+    <string name="name">Name</string>
+    <string name="type">Type of property</string>
+    <string name="bathrooms">Bathrooms</string>
+    <string name="description">Description</string>
+    <string name="location">Location</string>
+    <string name="error_incorrect">User or password is incorrect</string>
+    <string name="service_timer">Service Timer</string>
+    <string name="service_timer_summary">Set timer in seconds</string>
+</resources>

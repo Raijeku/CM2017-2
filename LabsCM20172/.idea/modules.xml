@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lab1-UI/Lab1-UI.iml" filepath="$PROJECT_DIR$/Lab1-UI/Lab1-UI.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab2Activities/Lab2Activities.iml" filepath="$PROJECT_DIR$/Lab2Activities/Lab2Activities.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab3Services/Lab3Services.iml" filepath="$PROJECT_DIR$/Lab3Services/Lab3Services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab4FCM/Lab4FCM.iml" filepath="$PROJECT_DIR$/Lab4FCM/Lab4FCM.iml" />
       <module fileurl="file://$PROJECT_DIR$/LabsCM20172.iml" filepath="$PROJECT_DIR$/LabsCM20172.iml" />
     </modules>
   </component>

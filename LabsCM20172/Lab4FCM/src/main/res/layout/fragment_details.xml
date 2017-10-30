@@ -1,0 +1,104 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.edu.udea.compumovil.gr10_20172.lab4.DetailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="256dp"
+            android:layout_height="256dp"
+            android:id="@+id/foto_detail"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tipo_inmueble_detail"
+            android:layout_below="@id/foto_detail"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"
+            android:text="Tipo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:layout_below="@id/foto_detail"
+            android:layout_toRightOf="@id/tipo_inmueble_detail"
+            android:padding="5dp"
+            android:id="@+id/msg1_detail" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/valor_detail"
+            android:layout_below="@id/foto_detail"
+            android:layout_toRightOf="@id/msg1_detail"
+            android:padding="5dp"
+            android:text="Valor"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bedrooms"
+            android:layout_below="@id/foto_detail"
+            android:layout_toRightOf="@id/valor_detail"
+            android:padding="5dp"
+            android:id="@+id/msg2_detail" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cuartos_detail"
+            android:layout_below="@id/foto_detail"
+            android:layout_toRightOf="@id/msg2_detail"
+            android:padding="5dp"
+            android:text="Cuartos"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/area"
+            android:layout_below="@id/foto_detail"
+            android:layout_toRightOf="@id/cuartos_detail"
+            android:padding="5dp"
+            android:id="@+id/msg3_detail" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/area_detail"
+            android:layout_below="@id/foto_detail"
+            android:layout_toRightOf="@id/msg3_detail"
+            android:padding="5dp"
+            android:text="Area"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/descripcion_detail"
+            android:layout_below="@id/area_detail"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"
+            android:text="Descripcion"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ubicacion_detail"
+            android:layout_below="@id/descripcion_detail"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"
+            android:text="Ubicacion"
+            android:textColor="@color/colorPrimary"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
